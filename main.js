@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 //var fs = require("fs");
 const crypto = require('crypto')
 
-app.listen(3000,function(){
+app.listen(process.env.PORT || 3000,function(){
   console.log("Started on PORT 3000");
 })
 
