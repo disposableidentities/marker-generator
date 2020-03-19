@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node main.js"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "homepage": "https://github.com/disposableidentities/marker-generator#readme",
   "engines": {
     "node": "10.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "canvas": "^2.6.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1"
   }
 }
