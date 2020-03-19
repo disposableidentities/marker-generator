@@ -36,7 +36,7 @@ app.post('/MakeMarker',function(request,response)
     if(status === 1)
         template ='images/unknown_marker_bckg.svg'
 
-    var Datamatrix = require('./Datamatrix');
+    var Datamatrix = require('./datamatrix.js');
 
     var dm = new Datamatrix()
 
